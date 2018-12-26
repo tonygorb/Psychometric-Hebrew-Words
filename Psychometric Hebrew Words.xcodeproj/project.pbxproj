@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABAC1F021D3A73B00163B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */; };
+		DABAC1F221D3A73B00163B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC1F121D3A73B00163B54 /* ViewController.swift */; };
+		DABAC1F521D3A73B00163B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABAC1F321D3A73B00163B54 /* Main.storyboard */; };
+		DABAC1F721D3A73C00163B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABAC1F621D3A73C00163B54 /* Assets.xcassets */; };
+		DABAC1FA21D3A73C00163B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABAC1F821D3A73C00163B54 /* LaunchScreen.storyboard */; };
+		DABAC20521D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC20421D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift */; };
+		DABAC21021D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC20F21D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABAC20121D3A73D00163B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABAC1E421D3A73B00163B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABAC1EB21D3A73B00163B54;
+			remoteInfo = "Psychometric Hebrew Words";
+		};
+		DABAC20C21D3A73D00163B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABAC1E421D3A73B00163B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABAC1EB21D3A73B00163B54;
+			remoteInfo = "Psychometric Hebrew Words";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DABAC1EC21D3A73B00163B54 /* Psychometric Hebrew Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychometric Hebrew Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABAC1F121D3A73B00163B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DABAC1F421D3A73B00163B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABAC1F621D3A73C00163B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABAC1F921D3A73C00163B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABAC1FB21D3A73C00163B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABAC20021D3A73D00163B54 /* Psychometric Hebrew WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychometric Hebrew WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABAC20421D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychometric_Hebrew_WordsTests.swift; sourceTree = "<group>"; };
+		DABAC20621D3A73D00163B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABAC20B21D3A73D00163B54 /* Psychometric Hebrew WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychometric Hebrew WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABAC20F21D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychometric_Hebrew_WordsUITests.swift; sourceTree = "<group>"; };
+		DABAC21121D3A73D00163B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABAC1E921D3A73B00163B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC1FD21D3A73D00163B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC20821D3A73D00163B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABAC1E321D3A73B00163B54 = {
+			isa = PBXGroup;
+			children = (
+				DABAC1EE21D3A73B00163B54 /* Psychometric Hebrew Words */,
+				DABAC20321D3A73D00163B54 /* Psychometric Hebrew WordsTests */,
+				DABAC20E21D3A73D00163B54 /* Psychometric Hebrew WordsUITests */,
+				DABAC1ED21D3A73B00163B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABAC1ED21D3A73B00163B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABAC1EC21D3A73B00163B54 /* Psychometric Hebrew Words.app */,
+				DABAC20021D3A73D00163B54 /* Psychometric Hebrew WordsTests.xctest */,
+				DABAC20B21D3A73D00163B54 /* Psychometric Hebrew WordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABAC1EE21D3A73B00163B54 /* Psychometric Hebrew Words */ = {
+			isa = PBXGroup;
+			children = (
+				DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */,
+				DABAC1F121D3A73B00163B54 /* ViewController.swift */,
+				DABAC1F321D3A73B00163B54 /* Main.storyboard */,
+				DABAC1F621D3A73C00163B54 /* Assets.xcassets */,
+				DABAC1F821D3A73C00163B54 /* LaunchScreen.storyboard */,
+				DABAC1FB21D3A73C00163B54 /* Info.plist */,
+			);
+			path = "Psychometric Hebrew Words";
+			sourceTree = "<group>";
+		};
+		DABAC20321D3A73D00163B54 /* Psychometric Hebrew WordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABAC20421D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift */,
+				DABAC20621D3A73D00163B54 /* Info.plist */,
+			);
+			path = "Psychometric Hebrew WordsTests";
+			sourceTree = "<group>";
+		};
+		DABAC20E21D3A73D00163B54 /* Psychometric Hebrew WordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DABAC20F21D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift */,
+				DABAC21121D3A73D00163B54 /* Info.plist */,
+			);
+			path = "Psychometric Hebrew WordsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABAC1EB21D3A73B00163B54 /* Psychometric Hebrew Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABAC21421D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew Words" */;
+			buildPhases = (
+				DABAC1E821D3A73B00163B54 /* Sources */,
+				DABAC1E921D3A73B00163B54 /* Frameworks */,
+				DABAC1EA21D3A73B00163B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psychometric Hebrew Words";
+			productName = "Psychometric Hebrew Words";
+			productReference = DABAC1EC21D3A73B00163B54 /* Psychometric Hebrew Words.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABAC1FF21D3A73D00163B54 /* Psychometric Hebrew WordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABAC21721D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew WordsTests" */;
+			buildPhases = (
+				DABAC1FC21D3A73D00163B54 /* Sources */,
+				DABAC1FD21D3A73D00163B54 /* Frameworks */,
+				DABAC1FE21D3A73D00163B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABAC20221D3A73D00163B54 /* PBXTargetDependency */,
+			);
+			name = "Psychometric Hebrew WordsTests";
+			productName = "Psychometric Hebrew WordsTests";
+			productReference = DABAC20021D3A73D00163B54 /* Psychometric Hebrew WordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DABAC20A21D3A73D00163B54 /* Psychometric Hebrew WordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABAC21A21D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew WordsUITests" */;
+			buildPhases = (
+				DABAC20721D3A73D00163B54 /* Sources */,
+				DABAC20821D3A73D00163B54 /* Frameworks */,
+				DABAC20921D3A73D00163B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABAC20D21D3A73D00163B54 /* PBXTargetDependency */,
+			);
+			name = "Psychometric Hebrew WordsUITests";
+			productName = "Psychometric Hebrew WordsUITests";
+			productReference = DABAC20B21D3A73D00163B54 /* Psychometric Hebrew WordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABAC1E421D3A73B00163B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tony Gorb";
+				TargetAttributes = {
+					DABAC1EB21D3A73B00163B54 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DABAC1FF21D3A73D00163B54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DABAC1EB21D3A73B00163B54;
+					};
+					DABAC20A21D3A73D00163B54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DABAC1EB21D3A73B00163B54;
+					};
+				};
+			};
+			buildConfigurationList = DABAC1E721D3A73B00163B54 /* Build configuration list for PBXProject "Psychometric Hebrew Words" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABAC1E321D3A73B00163B54;
+			productRefGroup = DABAC1ED21D3A73B00163B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABAC1EB21D3A73B00163B54 /* Psychometric Hebrew Words */,
+				DABAC1FF21D3A73D00163B54 /* Psychometric Hebrew WordsTests */,
+				DABAC20A21D3A73D00163B54 /* Psychometric Hebrew WordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABAC1EA21D3A73B00163B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABAC1FA21D3A73C00163B54 /* LaunchScreen.storyboard in Resources */,
+				DABAC1F721D3A73C00163B54 /* Assets.xcassets in Resources */,
+				DABAC1F521D3A73B00163B54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC1FE21D3A73D00163B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC20921D3A73D00163B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABAC1E821D3A73B00163B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABAC1F221D3A73B00163B54 /* ViewController.swift in Sources */,
+				DABAC1F021D3A73B00163B54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC1FC21D3A73D00163B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABAC20521D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABAC20721D3A73D00163B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABAC21021D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABAC20221D3A73D00163B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABAC1EB21D3A73B00163B54 /* Psychometric Hebrew Words */;
+			targetProxy = DABAC20121D3A73D00163B54 /* PBXContainerItemProxy */;
+		};
+		DABAC20D21D3A73D00163B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABAC1EB21D3A73B00163B54 /* Psychometric Hebrew Words */;
+			targetProxy = DABAC20C21D3A73D00163B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABAC1F321D3A73B00163B54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABAC1F421D3A73B00163B54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABAC1F821D3A73C00163B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABAC1F921D3A73C00163B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABAC21221D3A73D00163B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DABAC21321D3A73D00163B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABAC21521D3A73D00163B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew Words/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABAC21621D3A73D00163B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew Words/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-Words";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DABAC21821D3A73D00163B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew WordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychometric Hebrew Words.app/Psychometric Hebrew Words";
+			};
+			name = Debug;
+		};
+		DABAC21921D3A73D00163B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew WordsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-WordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Psychometric Hebrew Words.app/Psychometric Hebrew Words";
+			};
+			name = Release;
+		};
+		DABAC21B21D3A73D00163B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew WordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psychometric Hebrew Words";
+			};
+			name = Debug;
+		};
+		DABAC21C21D3A73D00163B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2747JGXG3;
+				INFOPLIST_FILE = "Psychometric Hebrew WordsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonygorb.Psychometric-Hebrew-WordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Psychometric Hebrew Words";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABAC1E721D3A73B00163B54 /* Build configuration list for PBXProject "Psychometric Hebrew Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABAC21221D3A73D00163B54 /* Debug */,
+				DABAC21321D3A73D00163B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABAC21421D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABAC21521D3A73D00163B54 /* Debug */,
+				DABAC21621D3A73D00163B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABAC21721D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew WordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABAC21821D3A73D00163B54 /* Debug */,
+				DABAC21921D3A73D00163B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABAC21A21D3A73D00163B54 /* Build configuration list for PBXNativeTarget "Psychometric Hebrew WordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABAC21B21D3A73D00163B54 /* Debug */,
+				DABAC21C21D3A73D00163B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABAC1E421D3A73B00163B54 /* Project object */;
+}
