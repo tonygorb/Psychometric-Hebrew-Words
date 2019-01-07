@@ -1,24 +1,463 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Heebo-Bold.ttf">
+            <string>Heebo-Bold</string>
+        </array>
+        <array key="Heebo-Medium.ttf">
+            <string>Heebo-Medium</string>
+        </array>
+        <array key="Heebo-Regular.ttf">
+            <string>Heebo-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController storyboardIdentifier="MainController" id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCH-df-eGw">
+                                <rect key="frame" x="16" y="36" width="343" height="615"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fx-3e-oJE">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="540"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-s2-LWo">
+                                                <rect key="frame" x="57" y="296" width="229" height="53"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mainLogo" translatesAutoresizingMaskIntoConstraints="NO" id="iPt-BA-VKm">
+                                                        <rect key="frame" x="5" y="0.0" width="230" height="54"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hbf-eW-mXk">
+                                        <rect key="frame" x="0.0" y="540" width="343" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u70-3k-vHK" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                <rect key="frame" x="83.5" y="0.0" width="176" height="47"/>
+                                                <color key="backgroundColor" red="1" green="0.96862745098039216" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="60" minY="10" maxX="60" maxY="10"/>
+                                                <state key="normal" title="התחל/י">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="eZP-BF-HcQ" kind="show" id="pJs-V3-W68"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="האפליקציה פותחה ע״י טוני גורב" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzU-rj-qJm">
+                                                <rect key="frame" x="94" y="57" width="155.5" height="18"/>
+                                                <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5fx-3e-oJE" firstAttribute="leading" secondItem="OCH-df-eGw" secondAttribute="leading" id="990-qf-JVA"/>
+                                    <constraint firstAttribute="trailing" secondItem="hbf-eW-mXk" secondAttribute="trailing" id="IBi-9R-QVc"/>
+                                    <constraint firstItem="hbf-eW-mXk" firstAttribute="top" secondItem="5fx-3e-oJE" secondAttribute="bottom" id="Td6-Bm-NEo"/>
+                                    <constraint firstItem="5fx-3e-oJE" firstAttribute="top" secondItem="OCH-df-eGw" secondAttribute="top" id="VlT-6d-EFy"/>
+                                    <constraint firstAttribute="bottom" secondItem="hbf-eW-mXk" secondAttribute="bottom" id="g4M-XE-O41"/>
+                                    <constraint firstItem="hbf-eW-mXk" firstAttribute="leading" secondItem="OCH-df-eGw" secondAttribute="leading" id="lMg-EO-PYI"/>
+                                    <constraint firstAttribute="trailing" secondItem="5fx-3e-oJE" secondAttribute="trailing" id="wio-V8-TLb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OCH-df-eGw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="KKG-gW-zp7"/>
+                            <constraint firstItem="OCH-df-eGw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ky9-gF-ex3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OCH-df-eGw" secondAttribute="bottom" constant="16" id="OFu-jr-6Le"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OCH-df-eGw" secondAttribute="trailing" constant="16" id="u2a-ou-6cq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                <color key="value" red="1" green="0.33725490200000002" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" red="0.08235294118" green="0.4431372549" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="1" green="0.33725490200000002" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.08235294118" green="0.4431372549" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="horizontalMode" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="NO"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="angle">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="133.5832083958021"/>
+        </scene>
+        <!--Quiz Controller-->
+        <scene sceneID="HqL-gX-0dc">
+            <objects>
+                <viewController storyboardIdentifier="quizController" id="eZP-BF-HcQ" customClass="QuizController" customModule="Psychometric_Hebrew_Words" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vH4-Gs-smf" customClass="GradientView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-zU-TuL" userLabel="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mBV-EM-ft4" userLabel="ProgressView">
+                                        <rect key="frame" x="0.0" y="119" width="10" height="10"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.96862745100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionNumberIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Xdq-02-uRf">
+                                        <rect key="frame" x="191" y="51" width="160" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="4ST-qo-Pmf"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xx/50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAv-SQ-Rcn" userLabel="QuestionNumber">
+                                        <rect key="frame" x="191" y="56" width="111" height="35"/>
+                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="eAv-SQ-Rcn" secondAttribute="bottom" constant="59" id="EVE-RL-DtN"/>
+                                    <constraint firstItem="Xdq-02-uRf" firstAttribute="top" secondItem="8tV-zU-TuL" secondAttribute="top" constant="51" id="HQu-wX-FXb"/>
+                                    <constraint firstAttribute="trailing" secondItem="eAv-SQ-Rcn" secondAttribute="trailing" constant="73" id="K23-VF-Rsy"/>
+                                    <constraint firstAttribute="height" constant="150" id="YRq-8O-a2L"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xdq-02-uRf" secondAttribute="trailing" constant="24" id="YXT-TL-LWu"/>
+                                    <constraint firstItem="eAv-SQ-Rcn" firstAttribute="top" secondItem="8tV-zU-TuL" secondAttribute="top" constant="56" id="dWr-o2-fw3"/>
+                                    <constraint firstItem="Xdq-02-uRf" firstAttribute="centerY" secondItem="8tV-zU-TuL" secondAttribute="centerY" id="r8x-n6-ZTt"/>
+                                    <constraint firstItem="Xdq-02-uRf" firstAttribute="leading" secondItem="eAv-SQ-Rcn" secondAttribute="leading" id="t3p-ZT-DFQ"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Sg5-T7-zKu">
+                                <rect key="frame" x="0.0" y="150" width="375" height="517"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WV0-w5-LwN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="258.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="02H-yg-P4r">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="258.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מילה" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbq-ng-IQb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="186.5" height="258.5"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="26"/>
+                                                        <color key="textColor" red="1" green="0.96862745100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מה המילה -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWq-x6-8n9">
+                                                        <rect key="frame" x="188.5" y="0.0" width="186.5" height="258.5"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="18"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="02H-yg-P4r" firstAttribute="leading" secondItem="WV0-w5-LwN" secondAttribute="leading" id="2VH-Er-Jwb"/>
+                                            <constraint firstAttribute="bottom" secondItem="02H-yg-P4r" secondAttribute="bottom" id="OlZ-6h-I6y"/>
+                                            <constraint firstItem="02H-yg-P4r" firstAttribute="top" secondItem="WV0-w5-LwN" secondAttribute="top" id="VbQ-JS-5k6"/>
+                                            <constraint firstAttribute="trailing" secondItem="02H-yg-P4r" secondAttribute="trailing" id="wdc-tr-ksa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg0-xf-CvB">
+                                        <rect key="frame" x="0.0" y="258.5" width="375" height="258.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="z4s-P2-9l4">
+                                                <rect key="frame" x="12" y="12" width="351" height="234.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK8-Va-HtU" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="351" height="49.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25085382513661203" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="16"/>
+                                                        <state key="normal" title="א. תשובה 1">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="answerPressed:" destination="eZP-BF-HcQ" eventType="touchUpInside" id="ben-S8-VAf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4t-Ct-aJA" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="61.5" width="351" height="50"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="16"/>
+                                                        <state key="normal" title="ב. תשובה 2">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="answerPressed:" destination="eZP-BF-HcQ" eventType="touchUpInside" id="uXY-wM-oqs"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCX-vt-TNI" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="123.5" width="351" height="49.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="16"/>
+                                                        <state key="normal" title="ג. תשובה 3">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="answerPressed:" destination="eZP-BF-HcQ" eventType="touchUpInside" id="fNE-yj-JYw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQT-oj-lH5" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="185" width="351" height="49.5"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="16"/>
+                                                        <state key="normal" title="ד. תשובה 4">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="answerPressed:" destination="eZP-BF-HcQ" eventType="touchUpInside" id="gZf-1T-4dS"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="z4s-P2-9l4" firstAttribute="top" secondItem="fg0-xf-CvB" secondAttribute="top" constant="12" id="GPN-hc-K6L"/>
+                                            <constraint firstAttribute="bottom" secondItem="z4s-P2-9l4" secondAttribute="bottom" constant="12" id="ipd-aT-qK6"/>
+                                            <constraint firstAttribute="trailing" secondItem="z4s-P2-9l4" secondAttribute="trailing" constant="12" id="tUe-CF-SpR"/>
+                                            <constraint firstItem="z4s-P2-9l4" firstAttribute="leading" secondItem="fg0-xf-CvB" secondAttribute="leading" constant="12" id="x7s-4D-c5c"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8tV-zU-TuL" firstAttribute="trailing" secondItem="HaD-4v-5V8" secondAttribute="trailing" id="1dI-6T-axt"/>
+                            <constraint firstItem="Sg5-T7-zKu" firstAttribute="bottom" secondItem="HaD-4v-5V8" secondAttribute="bottom" id="2AQ-p1-KHB"/>
+                            <constraint firstItem="Sg5-T7-zKu" firstAttribute="leading" secondItem="8tV-zU-TuL" secondAttribute="leading" id="4lW-ut-xXL"/>
+                            <constraint firstItem="8tV-zU-TuL" firstAttribute="top" secondItem="vH4-Gs-smf" secondAttribute="top" id="7pQ-Uw-Ivb"/>
+                            <constraint firstItem="Sg5-T7-zKu" firstAttribute="top" secondItem="8tV-zU-TuL" secondAttribute="bottom" id="FUq-B5-bLs"/>
+                            <constraint firstItem="8tV-zU-TuL" firstAttribute="centerX" secondItem="vH4-Gs-smf" secondAttribute="centerX" id="uNM-vY-mIm"/>
+                            <constraint firstItem="8tV-zU-TuL" firstAttribute="leading" secondItem="HaD-4v-5V8" secondAttribute="leading" id="yQm-Sx-1dm"/>
+                            <constraint firstItem="Sg5-T7-zKu" firstAttribute="trailing" secondItem="8tV-zU-TuL" secondAttribute="trailing" id="znw-cJ-naZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HaD-4v-5V8"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                <color key="value" red="1" green="0.33725490200000002" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" red="0.08235294118" green="0.4431372549" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="optionA" destination="gK8-Va-HtU" id="6fA-yb-ABm"/>
+                        <outlet property="optionB" destination="a4t-Ct-aJA" id="zHj-eL-grr"/>
+                        <outlet property="optionC" destination="JCX-vt-TNI" id="KV3-EU-9qn"/>
+                        <outlet property="optionD" destination="yQT-oj-lH5" id="9rv-Sh-QPj"/>
+                        <outlet property="progressView" destination="mBV-EM-ft4" id="1Qg-Ej-nz3"/>
+                        <outlet property="questionCounter" destination="eAv-SQ-Rcn" id="SuZ-DR-oVO"/>
+                        <outlet property="questionLabel" destination="Bbq-ng-IQb" id="AOX-OB-87a"/>
+                        <segue destination="iWX-4n-6mo" kind="presentation" identifier="resultSegue" id="ES9-LK-m7k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4g-y3-Akv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848.79999999999995" y="133.5832083958021"/>
+        </scene>
+        <!--Result Controller-->
+        <scene sceneID="ceI-3G-QPM">
+            <objects>
+                <viewController storyboardIdentifier="resultController" id="iWX-4n-6mo" customClass="ResultController" customModule="Psychometric_Hebrew_Words" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0YG-53-XJ2" customClass="GradientView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hoa-lP-KZX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KD6-Tq-Ded">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Bl-EW-obF" userLabel="TopView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pTl-31-gDz">
+                                                        <rect key="frame" x="12" y="50" width="351" height="122.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="כל הכבוד, סיימת!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POa-nj-H3i">
+                                                                <rect key="frame" x="0.0" y="0.0" width="351" height="61"/>
+                                                                <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="30"/>
+                                                                <color key="textColor" red="1" green="0.96862745100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ענית על xx/xx שאלות נכון" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1A-Kz-0Rq">
+                                                                <rect key="frame" x="0.0" y="61" width="351" height="61.5"/>
+                                                                <fontDescription key="fontDescription" name="Heebo-Regular" family="Heebo" pointSize="15"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="K1A-Kz-0Rq" firstAttribute="top" secondItem="POa-nj-H3i" secondAttribute="bottom" id="Dtp-EC-UrX"/>
+                                                            <constraint firstAttribute="trailing" secondItem="K1A-Kz-0Rq" secondAttribute="trailing" id="H8u-aX-gFm"/>
+                                                            <constraint firstAttribute="trailing" secondItem="POa-nj-H3i" secondAttribute="trailing" id="RTT-ji-hxS"/>
+                                                            <constraint firstItem="K1A-Kz-0Rq" firstAttribute="top" secondItem="POa-nj-H3i" secondAttribute="bottom" id="SUs-iI-FNf"/>
+                                                            <constraint firstItem="POa-nj-H3i" firstAttribute="leading" secondItem="pTl-31-gDz" secondAttribute="leading" id="TH2-Qj-nen"/>
+                                                            <constraint firstItem="POa-nj-H3i" firstAttribute="top" secondItem="pTl-31-gDz" secondAttribute="top" id="oJX-2t-OZB"/>
+                                                            <constraint firstAttribute="bottom" secondItem="K1A-Kz-0Rq" secondAttribute="bottom" id="uGw-ho-hgK"/>
+                                                            <constraint firstItem="K1A-Kz-0Rq" firstAttribute="leading" secondItem="pTl-31-gDz" secondAttribute="leading" id="xAi-hw-6qM"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="pTl-31-gDz" secondAttribute="trailing" constant="12" id="3oF-cy-Sgh"/>
+                                                    <constraint firstItem="pTl-31-gDz" firstAttribute="leading" secondItem="0Bl-EW-obF" secondAttribute="leading" constant="12" id="AWv-c9-Dge"/>
+                                                    <constraint firstItem="pTl-31-gDz" firstAttribute="top" secondItem="0Bl-EW-obF" secondAttribute="top" constant="50" id="kE3-Da-Rfq"/>
+                                                    <constraint firstAttribute="bottom" secondItem="pTl-31-gDz" secondAttribute="bottom" constant="50" id="sS1-l5-umH"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fvc-wo-CUq" userLabel="MiddleView">
+                                                <rect key="frame" x="0.0" y="222.5" width="375" height="222"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מעולה !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzA-yb-gF8">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="222"/>
+                                                        <fontDescription key="fontDescription" name="Heebo-Bold" family="Heebo" pointSize="30"/>
+                                                        <color key="textColor" red="1" green="0.96862745100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="YzA-yb-gF8" secondAttribute="bottom" id="S2Z-ZO-ac1"/>
+                                                    <constraint firstItem="YzA-yb-gF8" firstAttribute="leading" secondItem="fvc-wo-CUq" secondAttribute="leading" id="Ynb-RY-WOl"/>
+                                                    <constraint firstAttribute="trailing" secondItem="YzA-yb-gF8" secondAttribute="trailing" id="qYZ-S9-b4Q"/>
+                                                    <constraint firstItem="YzA-yb-gF8" firstAttribute="top" secondItem="fvc-wo-CUq" secondAttribute="top" id="uLC-14-ohy"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cYo-8T-gEe" userLabel="BottomView">
+                                                <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8d-5U-PLd" customClass="ButtonView" customModule="Psychometric_Hebrew_Words" customModuleProvider="target">
+                                                        <rect key="frame" x="75" y="140.5" width="225" height="47"/>
+                                                        <color key="backgroundColor" red="1" green="0.96862745100000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="47" id="dCI-Lx-ckp"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Heebo-Medium" family="Heebo" pointSize="18"/>
+                                                        <state key="normal" title="התחל/י מחדש">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="restartQuiz:" destination="iWX-4n-6mo" eventType="touchUpInside" id="mhf-mK-vtU"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="g8d-5U-PLd" firstAttribute="leading" secondItem="cYo-8T-gEe" secondAttribute="leading" constant="75" id="88o-ij-qfM"/>
+                                                    <constraint firstItem="g8d-5U-PLd" firstAttribute="centerX" secondItem="cYo-8T-gEe" secondAttribute="centerX" id="J0K-0z-Z9I"/>
+                                                    <constraint firstAttribute="bottom" secondItem="g8d-5U-PLd" secondAttribute="bottom" constant="35" id="xcZ-N2-MAF"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KD6-Tq-Ded" secondAttribute="trailing" id="IQ0-4R-xHw"/>
+                                    <constraint firstItem="KD6-Tq-Ded" firstAttribute="leading" secondItem="Hoa-lP-KZX" secondAttribute="leading" id="RwQ-Zd-t63"/>
+                                    <constraint firstAttribute="bottom" secondItem="KD6-Tq-Ded" secondAttribute="bottom" id="UjQ-Rj-xfT"/>
+                                    <constraint firstItem="KD6-Tq-Ded" firstAttribute="top" secondItem="Hoa-lP-KZX" secondAttribute="top" id="g8a-Zu-tt2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hoa-lP-KZX" firstAttribute="top" secondItem="0YG-53-XJ2" secondAttribute="top" id="OnM-5N-rzB"/>
+                            <constraint firstItem="Sfd-AG-uCM" firstAttribute="trailing" secondItem="Hoa-lP-KZX" secondAttribute="trailing" id="SgA-MS-dvn"/>
+                            <constraint firstItem="Sfd-AG-uCM" firstAttribute="bottom" secondItem="Hoa-lP-KZX" secondAttribute="bottom" id="Zdz-iP-qmV"/>
+                            <constraint firstItem="Hoa-lP-KZX" firstAttribute="leading" secondItem="Sfd-AG-uCM" secondAttribute="leading" id="rgV-CU-362"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sfd-AG-uCM"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="FirstColor">
+                                <color key="value" red="1" green="0.33725490200000002" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                <color key="value" red="0.08235294118" green="0.4431372549" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="answeredQuestions" destination="K1A-Kz-0Rq" id="pgD-r5-CBh"/>
+                        <outlet property="score" destination="YzA-yb-gF8" id="Drr-Dk-xsb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgd-l7-Goa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mainLogo" width="805" height="197"/>
+        <image name="questionNumberIcon" width="496" height="139"/>
+    </resources>
 </document>

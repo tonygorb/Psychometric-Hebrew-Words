@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA66EE7C21DD189D0024C9CF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EE7B21DD189D0024C9CF /* Question.swift */; };
+		DA66EE7E21DD19810024C9CF /* QuestionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EE7D21DD19810024C9CF /* QuestionStorage.swift */; };
+		DA66EE8021E22D250024C9CF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EE7F21E22D250024C9CF /* GradientView.swift */; };
+		DA66EE8221E26FA50024C9CF /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66EE8121E26FA50024C9CF /* ButtonView.swift */; };
+		DA66EE8B21E271650024C9CF /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8421E271650024C9CF /* Heebo-Bold.ttf */; };
+		DA66EE8C21E271650024C9CF /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8421E271650024C9CF /* Heebo-Bold.ttf */; };
+		DA66EE8D21E271650024C9CF /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8421E271650024C9CF /* Heebo-Bold.ttf */; };
+		DA66EE8E21E271650024C9CF /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8521E271650024C9CF /* Heebo-Thin.ttf */; };
+		DA66EE8F21E271650024C9CF /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8521E271650024C9CF /* Heebo-Thin.ttf */; };
+		DA66EE9021E271650024C9CF /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8521E271650024C9CF /* Heebo-Thin.ttf */; };
+		DA66EE9121E271650024C9CF /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8621E271650024C9CF /* Heebo-Medium.ttf */; };
+		DA66EE9221E271650024C9CF /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8621E271650024C9CF /* Heebo-Medium.ttf */; };
+		DA66EE9321E271650024C9CF /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8621E271650024C9CF /* Heebo-Medium.ttf */; };
+		DA66EE9421E271650024C9CF /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8721E271650024C9CF /* Heebo-Light.ttf */; };
+		DA66EE9521E271650024C9CF /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8721E271650024C9CF /* Heebo-Light.ttf */; };
+		DA66EE9621E271650024C9CF /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8721E271650024C9CF /* Heebo-Light.ttf */; };
+		DA66EE9721E271650024C9CF /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8821E271650024C9CF /* Heebo-Regular.ttf */; };
+		DA66EE9821E271650024C9CF /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8821E271650024C9CF /* Heebo-Regular.ttf */; };
+		DA66EE9921E271650024C9CF /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8821E271650024C9CF /* Heebo-Regular.ttf */; };
+		DA66EE9A21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8921E271650024C9CF /* Heebo-ExtraBold.ttf */; };
+		DA66EE9B21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8921E271650024C9CF /* Heebo-ExtraBold.ttf */; };
+		DA66EE9C21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8921E271650024C9CF /* Heebo-ExtraBold.ttf */; };
+		DA66EE9D21E271650024C9CF /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8A21E271650024C9CF /* Heebo-Black.ttf */; };
+		DA66EE9E21E271650024C9CF /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8A21E271650024C9CF /* Heebo-Black.ttf */; };
+		DA66EE9F21E271650024C9CF /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA66EE8A21E271650024C9CF /* Heebo-Black.ttf */; };
 		DABAC1F021D3A73B00163B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */; };
 		DABAC1F221D3A73B00163B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC1F121D3A73B00163B54 /* ViewController.swift */; };
 		DABAC1F521D3A73B00163B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABAC1F321D3A73B00163B54 /* Main.storyboard */; };
@@ -14,6 +39,8 @@
 		DABAC1FA21D3A73C00163B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABAC1F821D3A73C00163B54 /* LaunchScreen.storyboard */; };
 		DABAC20521D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC20421D3A73D00163B54 /* Psychometric_Hebrew_WordsTests.swift */; };
 		DABAC21021D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC20F21D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift */; };
+		DABAC22C21DA852B00163B54 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC22B21DA852B00163B54 /* QuizController.swift */; };
+		DABAC22E21DA868800163B54 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAC22D21DA868800163B54 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +61,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA66EE7B21DD189D0024C9CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DA66EE7D21DD19810024C9CF /* QuestionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStorage.swift; sourceTree = "<group>"; };
+		DA66EE7F21E22D250024C9CF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DA66EE8121E26FA50024C9CF /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		DA66EE8421E271650024C9CF /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		DA66EE8521E271650024C9CF /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+		DA66EE8621E271650024C9CF /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		DA66EE8721E271650024C9CF /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		DA66EE8821E271650024C9CF /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		DA66EE8921E271650024C9CF /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DA66EE8A21E271650024C9CF /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
 		DABAC1EC21D3A73B00163B54 /* Psychometric Hebrew Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychometric Hebrew Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABAC1F121D3A73B00163B54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,8 @@
 		DABAC20B21D3A73D00163B54 /* Psychometric Hebrew WordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psychometric Hebrew WordsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABAC20F21D3A73D00163B54 /* Psychometric_Hebrew_WordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychometric_Hebrew_WordsUITests.swift; sourceTree = "<group>"; };
 		DABAC21121D3A73D00163B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABAC22B21DA852B00163B54 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		DABAC22D21DA868800163B54 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +114,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA66EE8321E271480024C9CF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA66EE8A21E271650024C9CF /* Heebo-Black.ttf */,
+				DA66EE8421E271650024C9CF /* Heebo-Bold.ttf */,
+				DA66EE8921E271650024C9CF /* Heebo-ExtraBold.ttf */,
+				DA66EE8721E271650024C9CF /* Heebo-Light.ttf */,
+				DA66EE8621E271650024C9CF /* Heebo-Medium.ttf */,
+				DA66EE8821E271650024C9CF /* Heebo-Regular.ttf */,
+				DA66EE8521E271650024C9CF /* Heebo-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DABAC1E321D3A73B00163B54 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +151,16 @@
 		DABAC1EE21D3A73B00163B54 /* Psychometric Hebrew Words */ = {
 			isa = PBXGroup;
 			children = (
+				DA66EE8321E271480024C9CF /* Fonts */,
 				DABAC1EF21D3A73B00163B54 /* AppDelegate.swift */,
+				DABAC22D21DA868800163B54 /* ResultController.swift */,
+				DABAC22B21DA852B00163B54 /* QuizController.swift */,
 				DABAC1F121D3A73B00163B54 /* ViewController.swift */,
+				DA66EE7F21E22D250024C9CF /* GradientView.swift */,
+				DA66EE8121E26FA50024C9CF /* ButtonView.swift */,
 				DABAC1F321D3A73B00163B54 /* Main.storyboard */,
+				DA66EE7B21DD189D0024C9CF /* Question.swift */,
+				DA66EE7D21DD19810024C9CF /* QuestionStorage.swift */,
 				DABAC1F621D3A73C00163B54 /* Assets.xcassets */,
 				DABAC1F821D3A73C00163B54 /* LaunchScreen.storyboard */,
 				DABAC1FB21D3A73C00163B54 /* Info.plist */,
@@ -232,6 +293,13 @@
 				DABAC1FA21D3A73C00163B54 /* LaunchScreen.storyboard in Resources */,
 				DABAC1F721D3A73C00163B54 /* Assets.xcassets in Resources */,
 				DABAC1F521D3A73B00163B54 /* Main.storyboard in Resources */,
+				DA66EE9121E271650024C9CF /* Heebo-Medium.ttf in Resources */,
+				DA66EE9421E271650024C9CF /* Heebo-Light.ttf in Resources */,
+				DA66EE8B21E271650024C9CF /* Heebo-Bold.ttf in Resources */,
+				DA66EE9D21E271650024C9CF /* Heebo-Black.ttf in Resources */,
+				DA66EE8E21E271650024C9CF /* Heebo-Thin.ttf in Resources */,
+				DA66EE9A21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */,
+				DA66EE9721E271650024C9CF /* Heebo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +307,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66EE9821E271650024C9CF /* Heebo-Regular.ttf in Resources */,
+				DA66EE9221E271650024C9CF /* Heebo-Medium.ttf in Resources */,
+				DA66EE9E21E271650024C9CF /* Heebo-Black.ttf in Resources */,
+				DA66EE8C21E271650024C9CF /* Heebo-Bold.ttf in Resources */,
+				DA66EE8F21E271650024C9CF /* Heebo-Thin.ttf in Resources */,
+				DA66EE9B21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */,
+				DA66EE9521E271650024C9CF /* Heebo-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66EE9921E271650024C9CF /* Heebo-Regular.ttf in Resources */,
+				DA66EE9321E271650024C9CF /* Heebo-Medium.ttf in Resources */,
+				DA66EE9F21E271650024C9CF /* Heebo-Black.ttf in Resources */,
+				DA66EE8D21E271650024C9CF /* Heebo-Bold.ttf in Resources */,
+				DA66EE9021E271650024C9CF /* Heebo-Thin.ttf in Resources */,
+				DA66EE9C21E271650024C9CF /* Heebo-ExtraBold.ttf in Resources */,
+				DA66EE9621E271650024C9CF /* Heebo-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66EE7C21DD189D0024C9CF /* Question.swift in Sources */,
+				DABAC22E21DA868800163B54 /* ResultController.swift in Sources */,
+				DA66EE8221E26FA50024C9CF /* ButtonView.swift in Sources */,
 				DABAC1F221D3A73B00163B54 /* ViewController.swift in Sources */,
+				DA66EE7E21DD19810024C9CF /* QuestionStorage.swift in Sources */,
+				DA66EE8021E22D250024C9CF /* GradientView.swift in Sources */,
 				DABAC1F021D3A73B00163B54 /* AppDelegate.swift in Sources */,
+				DABAC22C21DA852B00163B54 /* QuizController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
